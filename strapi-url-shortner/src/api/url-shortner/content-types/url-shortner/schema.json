@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "url_shortners",
+  "info": {
+    "singularName": "url-shortner",
+    "pluralName": "url-shortners",
+    "displayName": "url-shortner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alias": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "visit": {
+      "type": "integer"
+    },
+    "user": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
